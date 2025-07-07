@@ -2,6 +2,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App'
+import { Exercise2 } from './Exercise2'
 // import './index.css'
 // import Header from './Header'
 // import { Content1 } from './Content1'
@@ -17,8 +18,7 @@ createRoot(document.getElementById('root')).render(
   //   <GameContent/> */}
   // </div>
   <StrictMode>
-    <App/>
-
+    <Exercise2/>
   </StrictMode>
 )
 
