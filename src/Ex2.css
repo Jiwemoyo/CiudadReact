@@ -1,3 +1,10 @@
+:root{
+  --oscuro:#1C1427;
+  --verde:#CCFFBD;
+  --verdeOscuro:#7ECA9C;
+  --gris:#40394a;
+}
+
 .navEx2{
     background-color: #1C1427;
     text-align: center;
@@ -11,32 +18,79 @@
     padding: 30px 0;    
 }
 
-.EntryContainer{
+.ContenidoDAtos {
     display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;     /* Alinea las filas al inicio verticalmente */
+    justify-content: space-between; /* Alinea los elementos al inicio horizontalmente */
+    height: 80vh;
+    margin: 5vh  ;
+}
+
+.EntryContainer {
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 80vh;
     gap: 30px;
     width: 40%;
     color: white;
-    margin: auto;
 }
+
 
 .EntryContainer > img{
     width: 240px;
+    border-radius: 10px;
+    border: 4px solid var(--verde);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
 }
 
 .up-content{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     font-weight: bold;
     gap: 8px;
 }
-
-.up-content img{
-    width: 40px;
+.Genero{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.Genero img{
+    width: 30px;
 }
 
 .up-content button{
     margin-left: 100px;
 }
+
+.DonwloadButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: var(--verde);
+    padding: 10px 30px;
+    font-weight: bolder;
+    border-radius: 10px;
+    color: var(--oscuro);
+    transition: transform 0.5s ease-in-out;
+}
+
+.DonwloadButton:hover{
+    transform: scale(1.1);
+    background-color: var(--verdeOscuro);
+}
+
+.content h3,
+.content h3 + p {
+  color: var(--verde);
+}
+

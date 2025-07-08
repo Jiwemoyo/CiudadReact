@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+:root{
+  --oscuro:#1C1427;
+  --verde:#CCFFBD;
+  --verdeOscuro:#7ECA9C;
+  --gris:#40394a;
+}
+
 
 .parent {
   display: grid;
