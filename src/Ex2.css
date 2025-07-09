@@ -24,17 +24,17 @@
     align-items: flex-start;     /* Alinea las filas al inicio verticalmente */
     justify-content: space-between; /* Alinea los elementos al inicio horizontalmente */
     height: 80vh;
-    margin: 5vh  ;
+    margin: 2vh 10vw;
 }
 
 .EntryContainer {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 30px;
     width: 40%;
-    color: white;
+    color: white;margin-top: 2vh;
+
 }
 
 
